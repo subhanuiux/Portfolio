@@ -1,0 +1,999 @@
+/*----------------------------------------------------------------------
+  Template Name: Pertest - Personal Portfolio HTML Template
+  Author: Creativemela
+  Author URL: https://themeforest.net/user/creativemela
+
+  Note: This is Responsive CSS File. 
+------------------------------------------------------------------------*/
+/******************** Responsive CSS *******************/
+
+/* Xtra Xtra Large Devices */
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  /*--------------- Hero Section ---------------*/
+  .hero .contact-rotate-wrapper {
+    position: absolute;
+    right: 0px;
+  }
+  .hero .profession {
+    font-size: 95px;
+    line-height: 120%;
+    top: -70px;
+  }
+  /*--------------- Project Section ---------------*/
+  .projects .view-all-btn-wrapper::after {
+    right: -55px;
+    transform: scale(0.8);
+  }
+  /*--------------- Testimonial Section ---------------*/
+  .testimonial .style {
+    right: calc(65vw + 220px);
+  }
+  .testimonial .arrow {
+    right: calc(58vw + 275px);
+  }
+  /*--------------- Pricing Section ---------------*/
+  .pricing-wrapper .section-title::after {
+    right: -49px;
+  }
+  /*--------------- Blogs Section ---------------*/
+  .blogs .section-title::after {
+    right: -49px;
+  }
+}
+
+/* Xtra Large Devices */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* .section-p {
+    padding-top: 100px;
+  }
+
+  .section-m {
+    margin-top: 100px;
+  } */
+  h1 {
+    font-size: 80px;
+  }
+  /*--------------- Hero Section ---------------*/
+  .hero {
+    padding-top: 30px;
+  }
+  .hero .bg-line {
+    width: 1440px;
+    left: -394px;
+    top: 218px;
+  }
+  .hero .bg-line::after {
+    height: 54px;
+    width: 54px;
+    margin-top: -26px;
+  }
+  .hero .lg-arrow {
+    visibility: hidden;
+  }
+  .hero .contact-rotate-wrapper {
+    position: absolute;
+    right: 0px;
+  }
+  .hero .profession {
+    font-size: 79px;
+    line-height: 160%;
+    top: -100px;
+  }
+  /*--------------- Skills Section ---------------*/
+  .skills.section-pt {
+    padding-top: 80px;
+  }
+  /*--------------- About Section ---------------*/
+  /*--------------- Project Section ---------------*/
+  .projects ul {
+    margin-top: 35px;
+  }
+  .projects .view-all-btn-wrapper::after {
+    right: 0px;
+    transform: scale(0.7);
+  }
+  /*--------------- Testimonial Section ---------------*/
+  .slider .slides:nth-child(1) .content {
+    left: calc(-112%);
+    max-width: 545px;
+  }
+  .buttons {
+    right: 79%;
+  }
+  .testimonial .style,
+  .testimonial .arrow {
+    display: none;
+  }
+  /*--------------- Pricing Section ---------------*/
+  .pricing-wrapper .section-title::after {
+    right: -53px;
+    transform: scaleX(-0.8) scaleY(0.8) rotate(180deg);
+  }
+  .pricing .pricing-item {
+    padding: 20px;
+    min-height: 560px;
+  }
+  /*--------------- Blogs Section ---------------*/
+  .blogs .section-title::after {
+    right: -53px;
+    transform: scaleX(-0.8) scaleY(0.8) rotate(180deg);
+  }
+  /*--------------- Contact Section ---------------*/
+}
+
+/* Large Devices */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  h1 {
+    font-size: 65px;
+  }
+  /*
+  h2 {
+    font-size: 55px;
+  }
+
+  h3 {
+    font-size: 45px;
+  }
+    */
+  h5 {
+    font-size: 20px;
+  }
+  .section-pt {
+    padding-top: 100px;
+  }
+  .section-mt {
+    margin-top: 100px;
+  }
+
+  /*--------------- Hero Section ---------------*/
+  .hero .bg-line {
+    width: 1440px;
+    left: -458px;
+    top: 206px;
+  }
+  .hero .bg-line::after {
+    height: 54px;
+    width: 54px;
+    margin-top: -26px;
+  }
+  .hero .lg-arrow {
+    visibility: hidden;
+  }
+  .hero .contact-rotate-wrapper {
+    position: absolute;
+    right: 0px;
+  }
+  .hero .profile-pic-wrapper {
+    transform: scale(0.85);
+  }
+  .hero .profession {
+    font-size: 66px;
+    line-height: 202%;
+    top: -100px;
+  }
+  /*--------------- Skills Section ---------------*/
+  .skills.section-pt {
+    padding-top: 50px;
+  }
+  /*--------------- About Section ---------------*/
+  .about .about-info {
+    font-size: 41px;
+  }
+  .about .year-exp span {
+    font-size: 138px;
+  }
+  /*--------------- Project Section ---------------*/
+  .projects-wrapper {
+    padding: 100px 0;
+  }
+  .projects ul {
+    margin-top: 35px;
+  }
+  .projects .project-item .overlay-content .title {
+    font-size: 26px;
+  }
+  .projects .view-all-btn-wrapper::after {
+    right: 0px;
+    transform: scale(0.6);
+  }
+  /*--------------- Services Section ---------------*/
+  .services .section-title::after {
+    right: -40px;
+    transform: scaleX(-0.8) scaleY(0.8) rotate(180deg);
+  }
+  .services .service-thumb {
+    font-size: 80px;
+  }
+  /*--------------- Testimonial Section ---------------*/
+  .testimonial .title {
+    font-size: 130px;
+  }
+  .testimonial .title::after {
+    height: 96px;
+  }
+  .slider-wrapper {
+    height: 500px;
+  }
+  .slider-container {
+    height: 500px;
+  }
+  .slider {
+    width: 390px;
+    height: 500px;
+  }
+  .slider .slides:nth-child(1) .content {
+    left: calc(-140%);
+    max-width: 520px;
+  }
+  .slider .slides:not(:first-child) {
+    transform: translateY(-36%) !important;
+  }
+  .slider .slides:nth-child(2) {
+    right: calc(50% + 225px);
+  }
+  .slider .slides:nth-child(3) {
+    right: calc(48% + 460px);
+  }
+  .buttons {
+    right: 77.3%;
+    bottom: 0px;
+  }
+  .testimonial .style,
+  .testimonial .arrow {
+    display: none;
+  }
+  /*--------------- Pricing Section ---------------*/
+  .pricing-wrapper {
+    padding: 100px 0;
+  }
+  .pricing-item-wrapper {
+    margin-top: 30px;
+  }
+  .pricing-wrapper .section-title::after {
+    display: none;
+  }
+  /*--------------- Blogs Section ---------------*/
+  .blogs .section-title::after {
+    display: none;
+  }
+  /*--------------- Contact Section ---------------*/
+  .contact .contact-content {
+    padding: 70px 0;
+  }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 50px;
+  }
+  /*
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+    */
+  h5 {
+    font-size: 18px;
+  }
+  /*
+  h6 {
+    font-size: 16px;
+  }
+*/
+  .section-pt {
+    padding-top: 90px;
+  }
+  .section-mt {
+    margin-top: 90px;
+  }
+
+  /*--------------- Hero Section ---------------*/
+  .hero {
+    height: 720px;
+  }
+  .hero h1 {
+    margin-left: -3px;
+  }
+  .hero .bg-line {
+    display: none;
+  }
+  .hero .contact-rotate-wrapper {
+    transform: scale(0.7);
+    top: -18px;
+    right: -6px;
+  }
+  .hero .lg-arrow {
+    /* visibility: hidden; */
+    display: none;
+  }
+  .hero .profile-pic-wrapper {
+    transform: scale(0.6);
+  }
+  .hero .profession {
+    font-size: 50px;
+    line-height: 288%;
+    top: -125px;
+    left: 34.7%;
+  }
+  /*--------------- Skills Section ---------------*/
+  .skills.section-pt {
+    padding-top: 0px;
+  }
+  /*--------------- About Section ---------------*/
+  .about .about-info {
+    font-size: 30px;
+  }
+  .about .year-exp span {
+    font-size: 70px;
+  }
+  .about .year-exp::before {
+    transform-origin: top left;
+    transform: scale(60%);
+  }
+  .about .year-exp::after {
+    right: -5%;
+    bottom: -55%;
+    transform: scale(60%);
+  }
+  .about .year-exp h4 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  /*--------------- Project Section ---------------*/
+  .projects-wrapper {
+    padding: 90px 0;
+  }
+  .projects ul {
+    margin-top: 35px;
+  }
+  .grid-item,
+  .big,
+  .mid {
+    width: 49%;
+  }
+  .grid-item img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 342px;
+    width: 100%;
+  }
+  .projects .project-item .overlay-content .title {
+    left: 10px;
+    bottom: 24px;
+    font-size: 24px;
+  }
+  .projects .view-all-btn-wrapper::after {
+    right: -40px;
+    transform: scale(0.5);
+  }
+  /*--------------- Services Section ---------------*/
+  .services .section-title::after {
+    right: -40px;
+    transform: scaleX(-0.7) scaleY(0.7) rotate(180deg);
+  }
+  .services .service-thumb {
+    font-size: 60px;
+  }
+  .services .service-panel li {
+    font-size: 22px;
+  }
+
+  /*--------------- Testimonial Section ---------------*/
+  .testimonial .title {
+    font-size: 100px;
+  }
+  .testimonial .title::after {
+    width: 190px;
+    height: 74px;
+  }
+  .testimonial .quate-wrapper {
+    height: 60px;
+    width: 83px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .slider-wrapper {
+    height: 400px;
+  }
+  .slider-container {
+    height: 400px;
+  }
+  .slider {
+    width: 312px;
+    height: 400px;
+  }
+  .slider .slides:nth-child(1) .content {
+    left: calc(-123%);
+    max-width: 350px;
+  }
+  .slider .slides:not(:first-child) {
+    transform: translateY(-20%) !important;
+    width: 108px;
+    height: 150px;
+  }
+  .slider .slides:nth-child(2) {
+    right: calc(60% + 225px);
+  }
+  .slider .slides:nth-child(3) {
+    right: calc(41% + 460px);
+  }
+  .buttons {
+    right: 83%;
+    bottom: 0;
+  }
+  .testimonial .style,
+  .testimonial .arrow {
+    display: none;
+  }
+  /*--------------- Pricing Section ---------------*/
+  .pricing-wrapper {
+    padding: 90px 0;
+  }
+  .pricing-item-wrapper {
+    margin-top: 35px;
+  }
+  .pricing-wrapper .section-title::after {
+    display: none;
+  }
+  .pricing .pricing-item {
+    padding: 25px;
+    min-height: 590px;
+  }
+  /*--------------- Blogs Section ---------------*/
+  .blogs .section-title::after {
+    display: none;
+  }
+  /*--------------- Contact Section ---------------*/
+  .contact .contact-content {
+    padding: 90px 0;
+  }
+  .contact .large-txt {
+    font-size: 90px;
+  }
+
+  /* Blog Page */
+  /* .breadcumb-area h2 {
+    font-size: 40px;
+  }
+
+  .breadcumb-area {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-top: 70px;
+  } */
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+  .progress-wrap {
+    right: 20px;
+    bottom: 20px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  .section-pt {
+    padding-top: 90px;
+  }
+  .section-mt {
+    margin-top: 90px;
+  }
+  .section-title span {
+    top: -10px;
+  }
+  .view-all-btn-wrapper .bttn-round {
+    transform: scale(0.8);
+  }
+  /*--------------- Hero Section ---------------*/
+
+  /*--------------- Skills Section ---------------*/
+  .skills.section-pt {
+    padding-top: 0px;
+  }
+  /*--------------- About Section ---------------*/
+  .about .about-info {
+    font-size: 20px;
+    margin: 5px 0 20px 0;
+  }
+  .about .year-exp span {
+    font-size: 70px;
+  }
+  .about .year-exp::before {
+    transform-origin: top left;
+    transform: scale(60%);
+  }
+  .about .year-exp::after {
+    right: -12%;
+    bottom: -55%;
+    transform: scale(60%);
+  }
+  .about .year-exp h4 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .about .bttn-round {
+    transform: scale(0.8);
+  }
+  .about a {
+    margin-left: 0%;
+    margin: 0 auto;
+  }
+  /*--------------- Project Section ---------------*/
+  .projects-wrapper {
+    padding: 90px 0;
+  }
+  .projects-wrapper .section-title-wrapper {
+    margin-bottom: 25px;
+  }
+  .projects ul {
+    margin-top: 15px;
+  }
+  .grid-item,
+  .big,
+  .mid {
+    width: 100%;
+  }
+  .projects .project-item .overlay-content .title {
+    left: 10px;
+    bottom: 24px;
+    font-size: 20px;
+  }
+  .projects .view-all-btn-wrapper::after {
+    display: none;
+  }
+  /*--------------- Services Section ---------------*/
+  .services .service-item-wrapper {
+    margin-top: 10px;
+  }
+  .services .section-title::after {
+    display: none;
+  }
+  .services .service-thumb {
+    font-size: 31px;
+  }
+  .services .service-panel li {
+    font-size: 16px;
+  }
+  .services .btn-wrapper {
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  /*--------------- Testimonial Section ---------------*/
+  .testimonial .style,
+  .testimonial .arrow,
+  .testimonial .title::after {
+    display: none;
+  }
+
+  /*--------------- Pricing Section ---------------*/
+  .pricing-wrapper {
+    padding: 90px 0;
+  }
+  .pricing-item-wrapper {
+    margin-top: 20px;
+  }
+  .pricing-wrapper .section-title::after {
+    display: none;
+  }
+  .pricing .pricing-item {
+    padding: 15px;
+    border: 1px solid rgba(15, 14, 14, 0.1);
+    min-height: 554px;
+    transition: all 0.3s ease;
+  }
+  /*--------------- Blogs Section ---------------*/
+  .blogs .section-title::after {
+    display: none;
+  }
+  .blogs .blog-item figure img {
+    min-height: 180px;
+    min-width: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  /*--------------- Contact Section ---------------*/
+  .contact .contact-content {
+    padding: 90px 0;
+  }
+  .contact .large-txt {
+    font-size: 60px;
+  }
+  .contact .social-media ul li {
+    margin-right: 0px;
+  }
+  .contact nav .link-txt {
+    font-size: 18px;
+  }
+  .contact .social-media ul li a {
+    font-size: 16px;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+  }
+  /*--------------- Project Popup  ---------------*/
+  .project-popup .popup_modal_content {
+    padding: 20px;
+  }
+  .project-popup .client-meta {
+    margin: 5px 10px 5px 0;
+  }
+  .project-popup hr {
+    margin-top: 20px;
+  }
+  .project-popup .other-project-img {
+    margin: 30px 0;
+    text-align: center;
+  }
+  .project-popup .other-project-img > div {
+    padding: 0;
+  }
+  .project-popup .other-project-img > div:first-child {
+    margin-bottom: 30px;
+  }
+
+  /*--------------- Blog Popup  ---------------*/
+  #blog-popup .popup_modal_content {
+    padding: 20px;
+  }
+
+  #blog-popup .popup_modal_content .project-info-wrapper h3 {
+    margin: 20px 0;
+  }
+
+  /* Pagination */
+  .glenic-pagination ul li a {
+    width: 40px;
+    height: 40px;
+  }
+  .glenic-pagination ul li span {
+    width: 40px;
+    height: 40px;
+  }
+
+  /*------------------ Blog Page ------------------*/
+  .breadcumb-area h2 {
+    font-size: 35px;
+  }
+
+  .breadcumb-area {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-top: 70px;
+  }
+
+  /*---------------- Right Side Bar - Blog Page ----------------*/
+  .sidebar-single-widget {
+    padding: 20px;
+    padding-top: 20px;
+  }
+  .socialicon-widget ul li {
+    padding-right: 20px;
+  }
+  .socialicon-widget ul li a {
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  /*---------------- Blog Details ----------------*/
+  .blog-details-full .content p.quote img {
+    left: 15px;
+  }
+  .blog-details-full .content p.quote {
+    padding: 15px 15px;
+    padding-left: 40px;
+    margin-left: 0px;
+  }
+  .blog-author-section {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .blog-author-section .content-auth .auth-header {
+    display: inherit;
+  }
+  .blog-author-section
+    .content-auth
+    .auth-header
+    .a-social-icon
+    span:first-child {
+    margin-left: 0px;
+  }
+  .blog-author-section .content-auth p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .related-blog-section {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  .related-blog-title h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .related-blog-title h3 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .comment-section-full {
+    padding: 30px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  h1 {
+    font-size: 44px;
+  }
+  /*------------------ Hero Section ------------------*/
+  .hero {
+    padding-top: 20px;
+  }
+  .hero h1 {
+    margin-left: -3px;
+    margin-top: 5px;
+  }
+  .hero .intro-info {
+    margin: 10px 0 30px;
+  }
+  .hero .bg-line {
+    display: none;
+  }
+  .hero .contact-rotate-wrapper {
+    display: none;
+  }
+  .hero .profile-pic-wrapper {
+    transform: scale(0.8);
+    left: -279px;
+    top: -158px;
+  }
+  .hero .profile-bg {
+    margin-top: 24%;
+    left: 124px;
+  }
+  .hero .profile-pic {
+    top: 33%;
+        left: 46%;
+        height: 510px;
+        width: auto;
+  }
+  .hero .profession {
+    font-size: 54px;
+    line-height: 100%;
+    top: 400px;
+    left: 0;
+  }
+  .hero .profession::before {
+    top: 89px;
+  }
+  .hero .profession::after {
+    top: -8px;
+    height: 44px;
+  }
+  .hero .intro-info {
+    margin: 15px 0 15px;
+  }
+  .hero .m-content {
+    top: 377px;
+    z-index: 9;
+    position: relative;
+  }
+  .hero .m-content .bttn {
+    font-size: 14px;
+    padding: 14px 16px;
+  }
+  .hero .m-content .bttn-primary {
+    margin-right: 15px;
+  }
+  /*--------------- Skills Section ---------------*/
+  .skills .skill-item {
+    height: 290px;
+    border-radius: 15px;
+  }
+  /*------------------ Testimonial Section ------------------*/
+  .testimonial .title {
+    font-size: 80px;
+  }
+  .testimonial .quate-wrapper {
+    height: 40px;
+    width: 63px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .slider-wrapper {
+    height: 406px;
+  }
+  .slider-container {
+    height: 300px;
+    margin-top: 110px;
+  }
+  .slider {
+    width: 231px;
+    height: 300px;
+  }
+  .slider .slides:nth-child(1) .content {
+    left: calc(-123%);
+    /* max-width: 350px; */
+    top: -120px;
+  }
+  .slider .slides:not(:first-child) {
+    transform: translateY(-50%) !important;
+    width: 108px;
+    height: 120px;
+  }
+  .slider .slides:nth-child(2) {
+    right: calc(10% + 242px);
+  }
+  .slider .slides:nth-child(3) {
+    right: calc(50% + 290px);
+  }
+  .buttons {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  h1 {
+    font-size: 49px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  /*--------------- Hero Section ---------------*/
+  .hero {
+    padding-top: 20px;
+  }
+  .hero h1 {
+    margin-left: -3px;
+    margin-top: 5px;
+  }
+  .hero .intro-info {
+    margin: 10px 0 30px;
+  }
+  .hero .bg-line {
+    display: none;
+  }
+  .hero .contact-rotate-wrapper {
+    display: none;
+  }
+  .hero .profile-pic-wrapper {
+    transform: scale(0.7);
+    left: -331px;
+    /* top: calc(40px - 15vw); */
+    top: -125px;
+  }
+  .hero .profile-bg {
+    margin-top: 24%;
+    left: 124px;
+  }
+  .hero .profile-pic {
+    top: 15%;
+        left: 31%;
+  }
+  .hero .profession {
+    font-size: 31px;
+    line-height: 100%;
+    top: 413px;
+    left: -0.3%;
+  }
+  .hero .profession::before {
+    top: 51px;
+  }
+  .hero .profession::after {
+    top: -5px;
+    height: 29px;
+  }
+  .hero .intro-info {
+    margin: 15px 0 15px;
+  }
+  .hero .m-content {
+    /* top: calc(400px - 5vw); */
+    /* top: calc(340px - 5vw); */
+    /* top: calc(360px - 5vw); */
+    top: calc(405px - 3vw);
+    z-index: 9;
+    position: relative;
+  }
+  .hero .m-content .bttn {
+    font-size: 14px;
+    padding: 14px 16px;
+  }
+  .hero .m-content .bttn-primary {
+    margin-right: 15px;
+  }
+  /*--------------- Skills Section ---------------*/
+  .skills .skill-item {
+    height: 290px;
+    border-radius: 15px;
+  }
+
+  /*--------------- Testimonial Section ---------------*/
+  .testimonial .title {
+    font-size: 45px;
+  }
+  .testimonial .quate-wrapper {
+    height: 19px;
+    width: 26px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .slider-wrapper {
+    height: calc(900px - 55vw);
+  }
+  .testimonial .slider-container {
+    height: calc(900px - 55vw);
+    width: 100%;
+  }
+  .slider {
+    max-width: 100%;
+    max-height: 300px;
+    left: 0;
+  }
+  .slider .slides:not(:first-child) {
+    width: 100px;
+    height: 100px;
+    top: initial;
+    bottom: -145px;
+  }
+  .slider .slides:nth-child(1) {
+    top: initial;
+    bottom: 0px;
+    height: 300px;
+  }
+  .slider .slides:nth-child(2) {
+    left: 0px;
+  }
+  .slider .slides:nth-child(3) {
+    left: 120px;
+  }
+  .slider .slides:nth-child(1) .content {
+    left: 0;
+    /* top: -65%; */
+    /* top: -70%; */
+    top: calc(26vw - 300px);
+  }
+  .buttons {
+    /* bottom: 0; */
+    bottom: calc(100px - 26vw);
+    left: 0;
+    right: 0;
+  }
+  /*--------------- Brands Section ---------------*/
+  .brands span::before,
+  .brands span::after {
+    display: none;
+  }
+  /* -------- Blog Page --------- */
+  .singlepage-navigation.border-0 {
+    display: none;
+  }
+  .comment-section-full ul li.single-comment {
+    display: flex;
+    flex-direction: column;
+  }
+  .comment-section-full ul li.single-comment ul.comment-reply {
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+  .comment-section-full ul li.single-comment .content p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
