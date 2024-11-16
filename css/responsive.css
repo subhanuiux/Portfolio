@@ -18,6 +18,7 @@
     font-size: 95px;
     line-height: 120%;
     top: -70px;
+    z-index: -10;
   }
   /*--------------- Project Section ---------------*/
   .projects .view-all-btn-wrapper::after {
