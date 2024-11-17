@@ -998,3 +998,9 @@
     line-height: 28px;
   }
 }
+
+@media only screen and (max-width: 385px) {
+  h1 {
+    font-size: 39px;
+  }
+}
