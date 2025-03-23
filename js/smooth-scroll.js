@@ -788,3 +788,27 @@ else
     window.SmoothScroll = SmoothScroll;
 
 })();
+
+
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    let formData = new FormData(this);
+    
+    fetch('form-handler.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.text())
+    .then(data => {
+        if(data === 'success') {
+            alert('Thank you! Your message has been sent.');
+            this.reset();
+        } else {
+            alert('There was an error. Please try again.');
+        }
+    })
+    .catch(error => {
+        alert('There was an error. Please try again.');
+    });
+});
